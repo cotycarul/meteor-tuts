@@ -78,7 +78,7 @@ This is the basic folder structure that an application, such as the one you've j
 
 <pre>
 ├── client 
-│   └── main.js // this file contains: import /imports/startup/client
+│   └── main.js // this file contains: import '/imports/startup/client'
 ├── imports
 │   ├── ui // contains anything User-Interface related (We won't cover UI in this Chapter)
 │   ├── startup
@@ -88,7 +88,7 @@ This is the basic folder structure that an application, such as the one you've j
 │   │       └── index.js // loads everything that is needed for the server to function
 │   ├── api // contains the rest
 └── server 
-    └── main.js // this file contains: import /imports/startup/server
+    └── main.js // this file contains: import '/imports/startup/server'
 </pre>
 
 ```
